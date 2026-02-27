@@ -32,7 +32,7 @@ def simulate_insurance(true_count_target, num_trials=10000, num_decks=6):
             decks_remaining = num_decks - (cards_dealt // 52)
             true_count = running_count / decks_remaining
 
-            if true_count == true_count_target:
+            if math.floor(true_count) == true_count_target:
                 count_matches += 1
                 hole_card = shoe[0]
                 if hole_card in [10, 11, 12, 13]:
