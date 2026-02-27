@@ -30,6 +30,8 @@ The simulation confirms that insurance becomes profitable around a **true count 
 | **Python** | Core language |
 | **random** | Shoe shuffling and simulation randomness |
 | **math** | Numerical operations |
+| **matplotlib** | Chart rendering and plot customizations |
+| **seaborn** | Statistical visualization styling and themes |
 
 ## Results
 
@@ -44,4 +46,4 @@ The simulation confirms that insurance becomes profitable around a **true count 
 
 > *Exact values vary by simulation run. The 33.3% breakeven corresponds to the 2:1 insurance payout — above this threshold, the bet has positive expected value.*
 
-**Output:** A printout of insurance win probability at each true count from −7 to +7.
+**Output:** A printout of insurance win probability at each true count from −7 to +7 and png file of barchart visualization.
